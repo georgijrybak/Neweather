@@ -8,22 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		B17E2A8427EB736100591CE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E2A8327EB736100591CE4 /* AppDelegate.swift */; };
-		B17E2A8627EB736100591CE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E2A8527EB736100591CE4 /* SceneDelegate.swift */; };
-		B17E2A8827EB736100591CE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E2A8727EB736100591CE4 /* ViewController.swift */; };
-		B17E2A8B27EB736100591CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B17E2A8927EB736100591CE4 /* Main.storyboard */; };
 		B17E2A8D27EB736300591CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B17E2A8C27EB736300591CE4 /* Assets.xcassets */; };
 		B17E2A9027EB736300591CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B17E2A8E27EB736300591CE4 /* LaunchScreen.storyboard */; };
+		B17E2AB027EB7C7F00591CE4 /* WeatherPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E2AAD27EB7C7F00591CE4 /* WeatherPresenter.swift */; };
+		B17E2AB127EB7C7F00591CE4 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E2AAE27EB7C7F00591CE4 /* WeatherViewController.swift */; };
+		B17E2AB227EB7C7F00591CE4 /* WeatherBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E2AAF27EB7C7F00591CE4 /* WeatherBuilder.swift */; };
+		B17E2AB627EB7C9800591CE4 /* NewsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E2AB327EB7C9800591CE4 /* NewsPresenter.swift */; };
+		B17E2AB727EB7C9800591CE4 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E2AB427EB7C9800591CE4 /* NewsViewController.swift */; };
+		B17E2AB827EB7C9800591CE4 /* NewsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E2AB527EB7C9800591CE4 /* NewsBuilder.swift */; };
+		B17E2ABC27EB7CA400591CE4 /* LoadingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E2AB927EB7CA400591CE4 /* LoadingPresenter.swift */; };
+		B17E2ABD27EB7CA400591CE4 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E2ABA27EB7CA400591CE4 /* LoadingViewController.swift */; };
+		B17E2ABE27EB7CA400591CE4 /* LoadingBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E2ABB27EB7CA400591CE4 /* LoadingBuilder.swift */; };
+		B17E2AC227EB7E3E00591CE4 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E2AC127EB7E3E00591CE4 /* Settings.swift */; };
+		B17E2AC427EB7E9200591CE4 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E2AC327EB7E9200591CE4 /* App.swift */; };
+		B17E2AC727EB812400591CE4 /* UIView+AddingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E2AC627EB812400591CE4 /* UIView+AddingViews.swift */; };
+		C6288CCF85ABCA37D6B1289B /* Pods_Neweather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C178D9AB1483C82C704268 /* Pods_Neweather.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		877CF2F0EBD0E81D6563475E /* Pods-Neweather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neweather.debug.xcconfig"; path = "Target Support Files/Pods-Neweather/Pods-Neweather.debug.xcconfig"; sourceTree = "<group>"; };
 		B17E2A8027EB736100591CE4 /* Neweather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neweather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B17E2A8327EB736100591CE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B17E2A8527EB736100591CE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B17E2A8727EB736100591CE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B17E2A8A27EB736100591CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B17E2A8C27EB736300591CE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B17E2A8F27EB736300591CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B17E2A9127EB736300591CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B17E2AAD27EB7C7F00591CE4 /* WeatherPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPresenter.swift; sourceTree = "<group>"; };
+		B17E2AAE27EB7C7F00591CE4 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		B17E2AAF27EB7C7F00591CE4 /* WeatherBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherBuilder.swift; sourceTree = "<group>"; };
+		B17E2AB327EB7C9800591CE4 /* NewsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPresenter.swift; sourceTree = "<group>"; };
+		B17E2AB427EB7C9800591CE4 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		B17E2AB527EB7C9800591CE4 /* NewsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsBuilder.swift; sourceTree = "<group>"; };
+		B17E2AB927EB7CA400591CE4 /* LoadingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingPresenter.swift; sourceTree = "<group>"; };
+		B17E2ABA27EB7CA400591CE4 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		B17E2ABB27EB7CA400591CE4 /* LoadingBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingBuilder.swift; sourceTree = "<group>"; };
+		B17E2AC127EB7E3E00591CE4 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		B17E2AC327EB7E9200591CE4 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		B17E2AC627EB812400591CE4 /* UIView+AddingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AddingViews.swift"; sourceTree = "<group>"; };
+		C5C178D9AB1483C82C704268 /* Pods_Neweather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neweather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B5A048681FCCFDF3B6FC10 /* Pods-Neweather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neweather.release.xcconfig"; path = "Target Support Files/Pods-Neweather/Pods-Neweather.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6288CCF85ABCA37D6B1289B /* Pods_Neweather.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E8116A235EBE128189A6BC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5C178D9AB1483C82C704268 /* Pods_Neweather.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B17E2A7727EB736100591CE4 = {
 			isa = PBXGroup;
 			children = (
 				B17E2A8227EB736100591CE4 /* Neweather */,
 				B17E2A8127EB736100591CE4 /* Products */,
+				DD3E6065049B9EBFCD785795 /* Pods */,
+				9E8116A235EBE128189A6BC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +89,89 @@
 		B17E2A8227EB736100591CE4 /* Neweather */ = {
 			isa = PBXGroup;
 			children = (
+				B17E2A9727EB79FF00591CE4 /* Screens */,
+				B17E2ABF27EB7DED00591CE4 /* res */,
+				B17E2AC527EB810900591CE4 /* managers */,
 				B17E2A8327EB736100591CE4 /* AppDelegate.swift */,
-				B17E2A8527EB736100591CE4 /* SceneDelegate.swift */,
-				B17E2A8727EB736100591CE4 /* ViewController.swift */,
-				B17E2A8927EB736100591CE4 /* Main.storyboard */,
-				B17E2A8C27EB736300591CE4 /* Assets.xcassets */,
 				B17E2A8E27EB736300591CE4 /* LaunchScreen.storyboard */,
 				B17E2A9127EB736300591CE4 /* Info.plist */,
 			);
 			path = Neweather;
+			sourceTree = "<group>";
+		};
+		B17E2A9727EB79FF00591CE4 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B17E2A9A27EB7A2D00591CE4 /* Weather */,
+				B17E2A9927EB7A2500591CE4 /* News */,
+				B17E2A9827EB7A0B00591CE4 /* Loading */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B17E2A9827EB7A0B00591CE4 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				B17E2AB927EB7CA400591CE4 /* LoadingPresenter.swift */,
+				B17E2ABA27EB7CA400591CE4 /* LoadingViewController.swift */,
+				B17E2ABB27EB7CA400591CE4 /* LoadingBuilder.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		B17E2A9927EB7A2500591CE4 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				B17E2AB327EB7C9800591CE4 /* NewsPresenter.swift */,
+				B17E2AB427EB7C9800591CE4 /* NewsViewController.swift */,
+				B17E2AB527EB7C9800591CE4 /* NewsBuilder.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		B17E2A9A27EB7A2D00591CE4 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				B17E2AAD27EB7C7F00591CE4 /* WeatherPresenter.swift */,
+				B17E2AAE27EB7C7F00591CE4 /* WeatherViewController.swift */,
+				B17E2AAF27EB7C7F00591CE4 /* WeatherBuilder.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		B17E2ABF27EB7DED00591CE4 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				B17E2AC027EB7E3200591CE4 /* Settings */,
+				B17E2A8C27EB736300591CE4 /* Assets.xcassets */,
+				B17E2AC327EB7E9200591CE4 /* App.swift */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		B17E2AC027EB7E3200591CE4 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B17E2AC127EB7E3E00591CE4 /* Settings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B17E2AC527EB810900591CE4 /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				B17E2AC627EB812400591CE4 /* UIView+AddingViews.swift */,
+			);
+			path = managers;
+			sourceTree = "<group>";
+		};
+		DD3E6065049B9EBFCD785795 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				877CF2F0EBD0E81D6563475E /* Pods-Neweather.debug.xcconfig */,
+				F2B5A048681FCCFDF3B6FC10 /* Pods-Neweather.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B17E2A9427EB736300591CE4 /* Build configuration list for PBXNativeTarget "Neweather" */;
 			buildPhases = (
+				E406F970DD10EA489AF9FBF5 /* [CP] Check Pods Manifest.lock */,
 				B17E2A7C27EB736100591CE4 /* Sources */,
 				B17E2A7D27EB736100591CE4 /* Frameworks */,
 				B17E2A7E27EB736100591CE4 /* Resources */,
+				82486A37E104162AC17AED24 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +236,77 @@
 			files = (
 				B17E2A9027EB736300591CE4 /* LaunchScreen.storyboard in Resources */,
 				B17E2A8D27EB736300591CE4 /* Assets.xcassets in Resources */,
-				B17E2A8B27EB736100591CE4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82486A37E104162AC17AED24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neweather/Pods-Neweather-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neweather/Pods-Neweather-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Neweather/Pods-Neweather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E406F970DD10EA489AF9FBF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Neweather-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B17E2A7C27EB736100591CE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B17E2A8827EB736100591CE4 /* ViewController.swift in Sources */,
+				B17E2AB827EB7C9800591CE4 /* NewsBuilder.swift in Sources */,
+				B17E2AB127EB7C7F00591CE4 /* WeatherViewController.swift in Sources */,
+				B17E2AB227EB7C7F00591CE4 /* WeatherBuilder.swift in Sources */,
+				B17E2ABE27EB7CA400591CE4 /* LoadingBuilder.swift in Sources */,
+				B17E2AB627EB7C9800591CE4 /* NewsPresenter.swift in Sources */,
+				B17E2AB727EB7C9800591CE4 /* NewsViewController.swift in Sources */,
+				B17E2AB027EB7C7F00591CE4 /* WeatherPresenter.swift in Sources */,
+				B17E2AC727EB812400591CE4 /* UIView+AddingViews.swift in Sources */,
+				B17E2ABD27EB7CA400591CE4 /* LoadingViewController.swift in Sources */,
 				B17E2A8427EB736100591CE4 /* AppDelegate.swift in Sources */,
-				B17E2A8627EB736100591CE4 /* SceneDelegate.swift in Sources */,
+				B17E2AC427EB7E9200591CE4 /* App.swift in Sources */,
+				B17E2AC227EB7E3E00591CE4 /* Settings.swift in Sources */,
+				B17E2ABC27EB7CA400591CE4 /* LoadingPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B17E2A8927EB736100591CE4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B17E2A8A27EB736100591CE4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B17E2A8E27EB736300591CE4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +434,7 @@
 		};
 		B17E2A9527EB736300591CE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 877CF2F0EBD0E81D6563475E /* Pods-Neweather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +445,6 @@
 				INFOPLIST_FILE = Neweather/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +462,7 @@
 		};
 		B17E2A9627EB736300591CE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B5A048681FCCFDF3B6FC10 /* Pods-Neweather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +473,6 @@
 				INFOPLIST_FILE = Neweather/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
