@@ -12,9 +12,10 @@ protocol NewsViewControllerProtocol: AnyObject {
 }
 
 final class NewsViewController: UIViewController, NewsViewControllerProtocol {
-    public var presenter: NewsPresenterProtocol!
+    var presenter: NewsPresenterProtocol!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = Colors.main
     }
 }

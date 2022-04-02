@@ -9,6 +9,8 @@ import Foundation
 
 protocol WeatherPresenterProtocol: AnyObject {
     init(view: WeatherViewControllerProtocol)
+
+    func fetchCurrentView(selectedPage: Int)
 }
 
 final class WeatherPresenter: WeatherPresenterProtocol {
@@ -16,5 +18,14 @@ final class WeatherPresenter: WeatherPresenterProtocol {
     
     init(view: WeatherViewControllerProtocol) {
         self.view = view
+    }
+
+    func fetchCurrentView(selectedPage: Int) {
+        switch selectedPage {
+        case 1:
+            view?.displayView(viewToDisplay: .forecastWeatherView)
+        default:
+            view?.displayView(viewToDisplay: .currentWeatherView)
+        }
     }
 }

@@ -6,6 +6,15 @@
 //
 
 import UIKit
+//enum WeatherImages {
+//    static let
+//}
+
+enum Colors {
+    static let main = UIColor(named: "mainColor")
+    static let secondary = UIColor(named: "secondColor")
+    static let secondaryMain = UIColor(named: "secondaryMain")
+}
 
 class Settings {
     enum UserDefaultsKeys: String {

@@ -8,7 +8,7 @@
 import UIKit
 
 final class LoadingBuilder {
-    public static func build() -> LoadingViewController {
+    static func build() -> LoadingViewController {
         let view = LoadingViewController()
         let presenter = LoadingPresenter(view: view)
         

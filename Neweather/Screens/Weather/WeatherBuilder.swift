@@ -8,7 +8,7 @@
 import UIKit
 
 final class WeatherBuilder {
-    public static func build() -> WeatherViewController {
+    static func build() -> WeatherViewController {
         let view = WeatherViewController()
         let presenter = WeatherPresenter(view: view)
         

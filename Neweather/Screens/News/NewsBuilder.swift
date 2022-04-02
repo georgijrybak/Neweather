@@ -8,7 +8,7 @@
 import UIKit
 
 final class NewsBuilder {
-    public static func build() -> NewsViewController {
+    static func build() -> NewsViewController {
         let view = NewsViewController()
         let presenter = NewsPresenter(view: view)
         
